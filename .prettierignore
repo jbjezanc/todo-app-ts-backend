@@ -1,0 +1,42 @@
+# Ignore dependencies
+node_modules
+
+# Ignore build output
+dist
+build
+out
+
+# Ignore coverage reports
+coverage
+
+# Ignore static assets
+public
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore Next.js build output
+.next
+
+# Ignore Expo or other framework-specific outputs
+.expo
+web-build
+
+# Ignore logs
+logs
+*.log
+
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore environment files
+.env
+.env.local
+.env.production
+.env.*
+
+# Ignore prettier configuration files themselves, if any
+.prettierrc
+.prettierignore
